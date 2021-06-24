@@ -1,0 +1,96 @@
+.heading-names {
+  color: pink;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+.heading-names .heading-items {
+  float: right;
+  padding-right: 300px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.side-nav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #D3D3D3;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: white;
+}
+.side-nav .side-nav-header {
+  color: black;
+  font-size: 30px;
+  font-family: Sacramento, cursive;
+  padding-left: 10px;
+}
+.side-nav .side-nav-content {
+  font-family: "Open Sans", sans-serif;
+  color: darkgrey;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.name-of-site {
+  font-family: Sacramento, cursive;
+  font-size: 100px;
+  float: left;
+  padding: 0;
+}
+
+.slogan {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.webpage-heading {
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-weight: 100;
+  padding-top: 5px;
+}
+
+.content {
+  color: black;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.quiz {
+  background-color: #B0E0E6;
+  width: 1100px;
+  height: 1000px;
+  color: black;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+}
+
+.footer {
+  opacity: 0.8;
+  margin: 30px;
+  border: 1px solid grey;
+  background-color: #FF7F50;
+  width: 1100px;
+  height: 100px;
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+}
+.footer .cookies {
+  display: inline;
+  padding: 20px;
+}
+.footer .the-rest {
+  display: inline-block;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
