@@ -1,0 +1,124 @@
+$color: black;
+$font-size: 30px;
+$font-family: 'Open Sans', sans-serif;
+
+// HEADER //
+.heading-names {
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family;
+  .heading-items {
+    float: right;
+    padding-right: 300px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+// SIDE BAR //
+.side-nav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: pink;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: white;
+  .side-nav-content {
+    font-family: $font-family;
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    width: 100%;
+    padding-left: 2px;
+    li a {
+      text-decoration: none;
+      color: #696969;
+    }
+  }
+}
+
+//HOVERING OVER SIDEBAR//
+a:hover {
+  color: white;
+  background-color: white;
+  border-radius: 10px;
+}
+
+//NAME OF SITE //
+.name-of-site {
+  font-family: Sacramento, cursive;
+  font-size: 150px;
+  float: left;
+  padding: 0;
+  color: pink;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  display: inline;
+}
+
+//HEADING FOR WEBPAGE//
+.webpage-heading {
+  font-size: 60px;
+  font-family: $font-family;
+  text-align: left;
+  font-weight: 100;
+  padding-top: 5px;
+  color: white;
+  padding-bottom: 100px;
+  display: inline-block;
+  background-image: url(header-img2.png);
+  background-repeat: no-repeat;
+  background-width: 1100px;
+}
+
+//CONTENT//
+.content {
+  color: black;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 310px;
+  padding-bottom: 50px;
+  float: left;
+  width: 1100px;
+}
+
+.background {
+  background-color: #E0FFFF;
+}
+//QUIZ//
+.quiz {
+  background-color: #B0E0E6;
+  width: 1100px;
+  height: 1000px;
+  color: black;
+  font-size: $font-size;
+  font-family: $font-family;
+  border-radius: 10px;
+}
+
+//FOOTER//
+.footer {
+  opacity: 0.8;
+  margin: 30px;
+  border: 1px solid grey;
+  background-color: #FF7F50;
+  width: 1100px;
+  height: 100px;
+  color: white;
+  font-size: 15px;
+  font-family: $font-family;
+  border-radius: 10px;
+  .cookies {
+    display: inline;
+    padding: 20px;
+  }
+  .the-rest {
+    display: inline-block;
+    padding: 20px;
+  }
+}
