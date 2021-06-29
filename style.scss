@@ -97,12 +97,13 @@ a:hover {
 .quiz {
   background-color: #B0E0E6;
   width: 1100px;
-  height: 1000px;
+  height: 900px;
   color: black;
   font-size: $font-size;
   font-family: $font-family;
   border-radius: 10px;
-  .one {
+  padding-bottom: 100px;
+  .numbers {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 40px;
   }
@@ -111,15 +112,35 @@ a:hover {
     font-family: 'Nanum Myeongjo', serif;
     text-align: center;
     padding-left: 250px;
-    li {
-      text-decoration: none; //Need to get rid of bullet points //
+  }
+  .first-row {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    img {
+      border-radius: 10px;
     }
   }
-  .left-imgs {
-
+  .second-row {
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    img {
+      border-radius: 10px;
+    }
   }
-  .right-imgs {
-
+  .button-shiz {
+    padding-left: 400px;
+    margin-bottom: 500px;
+    button {
+      background-color: #FF69B4;
+      border-radius: 100px;
+      width: 300px;
+      height: 60px;
+      font-size: 20px;
+      font-family: 'Nanum Myeongjo';
+    }
   }
 }
 
