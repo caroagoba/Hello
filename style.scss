@@ -1,7 +1,7 @@
 $font-family: 'Press Start 2P';
 
 canvas {
-  background-color: #ffb3de	;
+background-color: #ffb3de	;
 }
 
 body {
@@ -213,14 +213,32 @@ header {
       color: grey;
       text-align: center;
     }
-  }
-  .header-items {
+  } .header-items {
+    word-spacing: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+  a:link, a:visited {
     color: #3CB371;
     font-family: $font-family;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 15px;
     -webkit-text-stroke: 0.01em #00FF00;
   }
+  a:hover {
+      color: red;
+      font-family: $font-family;
+      font-size: 10px;
+      margin-top: 15px;
+      -webkit-text-stroke: 0.01em #00FF00;
+  }
+  a:active {
+    color: black;
+    font-family: $font-family;
+    font-size: 10px;
+    margin-top: 15px;
+    -webkit-text-stroke: 0.01em #00FF00;
+  }
+}
   .sentence {
     display: inline-block;
     padding-left: 1100px;
@@ -248,7 +266,14 @@ header {
       }
     }
   }
+  .slogan {
+    padding-left: 650px;
+    padding-top: 0px;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+  }
 }
+
 
 @-webkit-keyframes anim {
      from {
@@ -268,7 +293,7 @@ header {
      }
 }
 
-.content-headers {
+.content-headers1 {
   position: absolute;
   z-index: 1;
   left: 50px;
@@ -285,7 +310,7 @@ header {
 }
 
 //CONTENT//
-.content-body {
+.content-body1 {
   position: absolute;
   z-index: 1;
   left: 50px;
@@ -294,8 +319,65 @@ header {
   font-size: 20px;
   width: 550px;
   padding-top: 30px;
+  display: inline-block;
+  float: left;
+  .image1 {
+    img {
+      float: right;
+      width: 300px;
+    }
+  }
   }
 
-.content-no1 {
-  background-color: white;
+.content-headers2 {
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  top: 150px;
+  font-family: $font-family;
+  font-size: 30px;
+  font-weight: bold;
+  width: 550px;
+  padding-top: 400px;
+  padding-left: 700px;
+}
+
+.content-body2 {
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  top: 230px;
+  font-family: 'Arial';
+  font-size: 20px;
+  width: 550px;
+  padding-top: 400px;
+  padding-left: 700px;
+  justify-content: center;
+}
+
+.carousel-item {
+  height: 50rem;
+  background: #777;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./subversive.png);
+  .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    .heading-items {
+      font-family: $font-family;
+      .decoration-text {
+        color: red;
+      }
+    }
+  }
+}
+
+.overlay canvas {
+  position: absolute;
 }
